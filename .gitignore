@@ -1,0 +1,40 @@
+*.py[cod]
+.*
+!.babelrc
+!.circleci
+!.codeclimate.yml
+!.coveragerc
+!.dockerignore
+!.eslintrc.json
+!.flowconfig
+!.github
+!.gitignore
+!.gitlab-ci.yml
+!.gqlconfig
+!.npmrc
+!.nvmrc
+!.plop
+!.pylintrc
+!.testcafe
+!.travis*
+!.tx
+staticfiles
+*.log
+*.pot
+*.pyc
+log/
+local_settings.py
+__pycache__/
+build/
+coverage/
+dist/
+*\.egg*
+# data
+/media/
+/node_modules/
+# Exported results file
+django-queries-results.html
+# uploads/docx
+# uploads/pdf
+/db/
+
